@@ -13,12 +13,13 @@ header {
     position: relative;
     z-index: 2;
     margin: 0 auto;
-    max-width: 600px;
+    max-width: 100%;
     top: 38px;
 }
 
 section#main_content {
     z-index: 2;
-    padding: 60px 0px 0;
+    padding: 0;
+    margin-top: 60px;
     min-height:185px;
 }
