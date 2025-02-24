@@ -3,8 +3,21 @@
 
 @import "{{ site.theme }}";
 
+div.shell {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    position: relative;
+    z-index: 2;
+    margin: 0 auto;
+    top: 38px;
+}
+
 section#main_content {
     z-index: 2;
-    padding: 60px 82px 0;
+    padding-top: 60px;
     min-height:185px;
 }
